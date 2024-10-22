@@ -369,7 +369,6 @@ viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M19 4.001H5
         if (data) {
             ul.innerHTML = data;
 
-            // Обработчики для зачёркивания
             const checkboxes = ul.querySelectorAll("input[type='checkbox']");
             checkboxes.forEach((checkbox) => {
                 const pName = checkbox.nextElementSibling.querySelector(".content-section__tasks-list-item-text-name");
